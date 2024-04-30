@@ -6,9 +6,9 @@ function App() {
   const { loading } = useGlobalContext();
   return (
     <>
-      {loading && (
+      {/* {loading && (
         <div className={`loadin-hidden ${loading && 'loading'}`}></div>
-      )}
+      )} */}
       <Navbar />
       <CartContainer />
     </>
